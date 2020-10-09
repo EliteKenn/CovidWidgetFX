@@ -5,7 +5,7 @@ This widget shows the coronavirus(covid-19) positive cases, recovered cases, and
 
 I queried an online API to get coronavirus statistics data. Once the data is available, we can pass the data into the JavaFX GUI and display the data. For GUI development, I used SceneBuilder. I then designed the GUI as an FXML file.
 
-I then converted the JavaFX window(stage) to appear and act like an actual widget. I then made use of the java scheduler to schedule automatic data-refresh at fixed intervals.
+I then converted the JavaFX window(stage) to appear and act like an actual widget. I then made use of the java Scheduler API to schedule automatic data-refresh at fixed intervals.
 
 First, I used the Retrofit2 library for HTTP communication. It allowed me to make GET requests to the API and it responded with JSON string. I was then able to parse the string to java POJO and use it as data for the widget.
 
